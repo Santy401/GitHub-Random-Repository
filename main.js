@@ -53,7 +53,7 @@ function showRepository(repo) {
 
     repoName.textContent = repo.name;
     repoDescription.textContent = repo.description || 'No description available.';
-    repoInfo.innerHTML = `${repo.stargazers_count} | 🍴 ${repo.forks_count} | 👀 ${repo.watchers_count}`;
+    repoInfo.innerHTML = `${repo.language} | 🍴 ${repo.forks_count} | 👀 ${repo.watchers_count}`;
 }
 
 function fetchRepository() {
